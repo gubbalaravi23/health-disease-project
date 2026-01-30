@@ -60,3 +60,5 @@ if st.button("🔍 Predict Risk"):
         st.success(f"✅ LOW RISK / HEALTHY")
         st.write(f"The model predicts a **{probability[0][0]*100:.2f}%** probability of being healthy.")
         st.markdown("**Recommendation:** Maintain a healthy lifestyle and regular checkups.")
+        if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
